@@ -19,7 +19,7 @@ const UserPage = () => {
       setBooks(updatedBooks);
       setEditIndex(null); 
     } else {
-      setBooks((prevBooks) => [...prevBooks, newBook]);
+      setBooks((prevBooks) => [...prevBooks]);
     }
 
     setNewBook({
